@@ -1,0 +1,75 @@
+/* Variables */
+
+:root {
+    --color-one: black;
+    --color-input: #000;
+  }
+  
+
+
+
+/* Fonts */
+
+.spaceg{
+    font-family: 'Space Grotesk';
+}
+
+
+/* S1 */
+.circle{
+    width: 25vw;
+    height: 25vw;
+    border: 5px solid black;
+}
+.color--convert{
+    border-width: 0px 0px 0px 3px;
+    border-style: dashed;
+    border-color: black;
+    padding-left: 2rem;
+}
+#colorInput{
+    border-radius: 0.25em;
+    padding: 0.5em;
+    font-size: 1rem;
+
+}
+#convertedColorDiv{
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.retro{
+    /* display: inline-block; */
+    text-align: center;
+    user-select: none;
+    /* padding: 0.75rem 0.75rem; */
+    font-size: 1rem;
+    line-height: 1.5;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    
+    border: 3px solid black!important;
+    border-radius: 0;
+    box-shadow: 5px 5px black, 7px 7px white;
+
+    margin-top: 20px;
+}
+
+.retro:hover{
+    color: black;
+    background: white;
+  box-shadow: 3px 3px black, 5px 5px white;
+   transform: translateX(2px) translateY(1px); 
+}
+
+.retro:active{
+    background-color: white!important;
+    color: black!important;
+    box-shadow: 0px 0px white;
+    transform: translateX(5px) translateY(2px); 
+}

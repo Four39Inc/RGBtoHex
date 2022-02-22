@@ -1,0 +1,104 @@
+/* X-Small */
+@media only screen and (max-width:290px){
+    .fullpage{
+        flex-direction:column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    #convertedColor{
+        width: 150px;
+    }
+    #heading{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    #outputDiv{
+        font-size: 1.2rem !important;
+        padding-left: 0%;
+    }
+    #colorInput{
+        padding: 0.25rem .25rem;
+    }
+    
+    .color--convert{
+        border-width: 3px 0px 0px 0px;
+        border-style: dashed;
+        border-color: black;
+        padding-top: 2rem;
+    }
+    .circle{
+        width: 50vw;
+        height: 50vw;
+        border: 5px solid var(--color-one);
+        margin-bottom: 2rem;
+    }
+    #btn{
+        margin-right: 0px !important;
+    }
+}
+
+@media only screen and (min-width:291px) and (max-width:576px ){
+
+    .fullpage{
+        flex-direction:column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+   
+    #outputDiv{
+        font-size: 20px;
+        padding-left: 0%;
+    }
+    .color--convert{
+        border-width: 3px 0px 0px 0px;
+        border-style: dashed;
+        border-color: black;
+        padding-top: 2rem;
+    }
+    .circle{
+        width: 50vw;
+        height: 50vw;
+        border: 5px solid var(--color-one);
+        margin-bottom: 2rem;
+    }
+}
+
+/* Small */
+
+@media only screen and (min-width:577px ) and (max-width:768px){
+    .fullpage{
+        flex-direction:column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+   
+    #outputDiv{
+        font-size: 1.8rem;
+        padding-left: 5px;
+    }
+    .color--convert{
+        border-width: 3px 0px 0px 0px;
+        border-style: dashed;
+        border-color: black;
+        padding-top: 2rem;
+    }
+    .circle{
+        width: 50vw;
+        height: 50vw;
+        border: 5px solid var(--color-one);
+        margin-bottom: 2rem;
+    }
+}
+
+/* Medium */
+@media only screen and (max-width:992px){
+    
+}
+
+/* XXL */
+@media only screen and (max-width:1440px){
+    
+}

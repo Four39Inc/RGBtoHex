@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+
+
+
+
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section id="fullpage"
+        class="min-h-screen w-full bg-gray-100 flex justify-center items-center  p-4 text-2xl font-medium fullpage">
+
+        <section class="color--circle h-full w-full flex justify-center items-center" id="circleDiv">
+            <div class="circle rounded-full " id="circle"></div>
+        </section>
+
+
+
+        <section class="color--convert flex flex-col justify-center items-start spaceg h-full w-full space-y-12"
+            id="outputDiv">
+            <p class="text-4xl font-bold" id="heading">Convert to RGB to HEX or vice-versa seamlessly</p>
+
+            <div class=" flex flex-col space-y-3">
+                <p>Enter a Color :</p>
+                <input type="text" name="color" id="colorInput" class="border-2 border-black " oninput="isHex()">
+
+            </div>
+
+            <div class="flex flex-col space-y-1">
+                <p>Format Detected : <span id="inputC"></span></p>
+                <p>Converting to : <span id="outputC"></span></p>
+            </div>
+
+            <div class=" flex justify-start flex-col  flex-wrap space-y-3">
+                <p class="">Converted Value</p>
+
+                <div class="flex flex-wrap sm:space-x-6 space-x-6 justify-start" id="outputt">
+                    <div class="  " id="convertedColorDiv">
+                        <p id="convertedColor" class="w-52"></p>
+
+                    </div>
+
+                    <button class="p-2.5 mr-0 relative retro flex justify-center items-center" id="btn">
+
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 12.9V17.1C16 20.6 14.6 22 11.1 22H6.9C3.4 22 2 20.6 2 17.1V12.9C2 9.4 3.4 8 6.9 8H11.1C14.6 8 16 9.4 16 12.9Z"
+                                stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M22 6.9V11.1C22 14.6 20.6 16 17.1 16H16V12.9C16 9.4 14.6 8 11.1 8H8V6.9C8 3.4 9.4 2 12.9 2H17.1C20.6 2 22 3.4 22 6.9Z"
+                                stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- JS -->
+
+
+
+
+    </section>
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
